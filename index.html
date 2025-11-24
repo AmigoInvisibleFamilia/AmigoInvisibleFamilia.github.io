@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Invisible</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main class="page">
+        <section class="card">
+            <header class="card-header">
+                <h1>Amigo Invisible</h1>
+                <p>Completa tus datos y contanos qué te gustaría recibir de regalo.</p>
+            </header>
+
+            <form class="form" action="#" method="post">
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input 
+                            type="text" 
+                            id="nombre" 
+                            name="nombre" 
+                            placeholder="Ej: Juan"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="apellido">Apellido</label>
+                        <input 
+                            type="text" 
+                            id="apellido" 
+                            name="apellido" 
+                            placeholder="Ej: Pérez"
+                            required
+                        >
+                    </div>
+                </div>
+
+                <!-- Teléfono con combo de país -->
+                <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <div class="tel-row">
+                        <select id="codigo" name="codigo" class="select-codigo" required>
+                            <option value="+598">🇺🇾 +598</option>
+                            <option value="+54">🇦🇷 +54</option>
+                        </select>
+
+                        <input 
+                            type="text" 
+                            id="telefono" 
+                            name="telefono" 
+                            placeholder="Ej: 99123456"
+                            class="tel-input"
+                            required
+                        >
+                    </div>
+
+                    <small class="helper-text">Elegí tu país y luego ingresá tu número sin espacios ni guiones.</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="descripcion">Gustos y sugerencias de regalo</label>
+                    <textarea 
+                        id="descripcion" 
+                        name="descripcion" 
+                        rows="5"
+                        placeholder="Ej: Me gustan libros, juegos de mesa, cosas para escritorio..."
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="btn-primary">Enviar datos</button>
+
+                <p class="footer-note">Tus datos se usarán solo para organizar el juego.</p>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
