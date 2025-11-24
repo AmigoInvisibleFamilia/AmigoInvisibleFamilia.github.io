@@ -53,19 +53,4 @@ Este sitio está publicado usando **GitHub Pages**.
 Para ver el sitio en vivo:
 
 👉 https://AmigoInvisibleFamilia.github.io
----
 
-## 🔧 Configuración adicional (opcional)
-
-Podés editar el archivo `_config.yml` para:
-
-- Cambiar el tema visual de GitHub Pages
-- Editar el título del sitio
-- Definir una descripción
-
-Ejemplo:
-
-```yml
-theme: jekyll-theme-minimal
-title: Amigo Invisible
-description: Formulario para registrar participantes y gustos para el sorteo.
