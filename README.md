@@ -52,9 +52,7 @@ Cada persona completa un formulario con su nombre, apellido, teléfono y gustos 
 Este sitio está publicado usando **GitHub Pages**.  
 Para ver el sitio en vivo:
 
-👉 https://username.github.io  
-_(Reemplazar `username` por tu usuario real de GitHub.)_
-
+👉 https://AmigoInvisibleFamilia.github.io
 ---
 
 ## 🔧 Configuración adicional (opcional)
