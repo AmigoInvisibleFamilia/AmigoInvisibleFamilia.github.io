@@ -14,11 +14,10 @@ function inicio() {
         const datos = {
             nombre: document.getElementById("nombre").value,
             apellido: document.getElementById("apellido").value,
-            telefono_completo: "'"+document.getElementById("codigo").value + document.getElementById("telefono").value,
             descripcion: document.getElementById("descripcion").value
         };
 
-        const url = "https://script.google.com/macros/s/AKfycbyNq3eKS90wQfhw4vive3O3VjL0Gzh4yc0wuYRZ5_fXbJ436KB5hSWFTbPZEl6MNv-FLQ/exec";
+        const url = "https://script.google.com/macros/s/AKfycbwpw0_mNIwMsgdKo1FVAQhipJ3kdGVvHqNh_oJm28SYkum7wv2Gd8OjGtvonZNOPRXPSw/exec";
 
         try {
             await fetch(url, {
